@@ -14,7 +14,7 @@ class __RES_OBJ{
      }
      public function send(){
           print(json_encode($this));
-     exit();
+          exit();
      }
      public function mysql_table_row_to_object($row){
           $data_object = new stdClass();
@@ -23,7 +23,6 @@ class __RES_OBJ{
           }
           return $data_object;
      }
-     
 }
 #make object
 $__RESPONCE = new __RES_OBJ();
