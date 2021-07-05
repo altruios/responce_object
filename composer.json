@@ -1,6 +1,7 @@
 {
      "name": "altruios/responce",
      "keywords": ["json","mysql","database"],
+     "license": "MIT",
      "description": "the point of this is to make interacting with the database a little bit easier, it sends json back to the client, and warns the client of errors",
      "require": {
          "php": ">=7.4",
